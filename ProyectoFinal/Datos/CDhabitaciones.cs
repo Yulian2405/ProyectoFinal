@@ -59,7 +59,7 @@ namespace ProyectoFinal.Datos
             SqlCommand cmd = new SqlCommand(QueryEliminarHabitacion, cd_conexion.MtdAbrirConexion());
             cmd.Parameters.AddWithValue("@CodigoHabitacion", CodigoHabitacion);
             cmd.ExecuteNonQuery();
-            cd_conexion.MtdCerrarConexion();
+            cd_conexion.MtdCerrarConexion(); //pRUEBAAA
         }
     }
 }
