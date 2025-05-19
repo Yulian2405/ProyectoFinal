@@ -32,19 +32,18 @@ namespace ProyectoFinal
             {
                 try
                 {
-                   /* string Nombre = txtNombre.Text;
+                    string Nombre = txtNombre.Text;
                     string Tipo = cboxTipo.Text;
                     double Precio = cl_servicios.MtdPrecioServicio(Tipo);
                     DateTime FechaVigencia = dtpFechaVigencia.Value;
                     DateTime FechaVencimiento = dtpFechaVencimiento.Value;
                     string Estado = cboxEstado.Text;
-                    DateTime FechaSistema = cl_habitaciones.MtdFechaHoy();
                     string UsuarioSistema = "Yulian";
 
                     cd_habitaciones.MtdAgregarhabitacion(Numero, Ubicacion, Tipo, Precio, FechaSistema, Estado, UsuarioSistema);
                     MessageBox.Show("Habitacion agregada", "Correcto", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     MtdConsultarHabitaciones();
-                    MtdLimpiarCampos();*/
+                    MtdLimpiarCampos();
                 }
                 catch (Exception ex)
                 {
